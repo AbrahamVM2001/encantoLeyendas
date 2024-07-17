@@ -1,3 +1,7 @@
+$(window).on('load', function () {
+    $('#preloader').delay(100).fadeOut('slow', function () { $(this).remove(); });
+});
+
 // $('.portfolio-item').isotope({
 //  	itemSelector: '.item',
 //  	layoutMode: 'fitRows'
