@@ -161,6 +161,7 @@ nav {
     position: fixed;
     z-index: 99;
     width: 100%;
+    background-color: var(--bg-color1);
 }
 
 nav .wrapper {
@@ -176,7 +177,7 @@ nav .wrapper {
 }
 
 nav img {
-    width: 8%;
+    width: 5%;
 }
 
 .wrapper .logo a {
